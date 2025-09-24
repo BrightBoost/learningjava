@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.week1;
 
 public class Operators {
     public static void main(String[] args) {
@@ -49,6 +49,31 @@ public class Operators {
 
         int newResult = nr1++ + ++nr2 / nr1++;
         System.out.println(newResult);
+
+        int example = 2;
+        System.out.println(++example);
+        System.out.println(example);
+
+        // normal division
+        double d1 = 9.6;
+        double d2 = 3.0;
+        System.out.println(d1 / d2);
+
+        System.out.println("******");
+        int p = 7;
+        System.out.println(p++ + p++ + ++p);
+
+        int something = 4;
+        something += 6; // something = something + 6
+        System.out.println(something);
+
+        int n = 10;
+        n += n++ + ++n;
+        System.out.println(n);
+
+        int lvl = 1;
+        lvl = lvl++ + ++lvl + lvl;
+        System.out.println(lvl);
 
     }
 }
