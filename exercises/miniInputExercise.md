@@ -4,4 +4,4 @@
    - First tool that comes to mind
    - Number of day of birth day 
 2. You are going to print this in a silly sentence like:
-    - You're favorite animal is elephant, first tool that comes to mind is a saw and the 24 is the day you were born.
+    - Your favorite animal is elephant, first tool that comes to mind is a saw and the 24 is the day you were born.
