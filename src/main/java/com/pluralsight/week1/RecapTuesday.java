@@ -70,7 +70,7 @@ public class RecapTuesday {
         System.out.println(randomValue);
 
         // let's generate a random int between 0 and 50
-        int randomNr = (int) Math.round(* 50);
+        int randomNr = (int) Math.round(Math.random() * 50);
 
     }
 }
