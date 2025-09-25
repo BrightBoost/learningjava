@@ -22,15 +22,28 @@ public class BasicCalculator {
                   (S)ubtract
                   (M)ultiply
                   (D)ivide
-                Please select an option:
-                """;
+                Please select an option:""";
         System.out.println(prettyPrint);
         String operation = scanner.nextLine();
+        double result = 0;
 
-        // do a multiplication
-        double result = nr1 * nr2;
+        String operator = "";
+        // do an operation
+        if(operation.equals("A")) {
+            result = nr1 + nr2;
+            operator = "+";
+        } else if(operation.equals("S")) {
+            result = nr1 - nr2;
+            operator = "-";
+        } else if(operation.equals("M")) {
+            result = nr1 * nr2;
+            operator = "*";
+        } else {
+            result = nr1 / nr2;
+            operator = "/";
+        }
 
         // print the calculation and result
-        System.out.printf("%f * %f = %f", nr1, nr2, result);
+        System.out.printf("%f %s %f = %f", nr1, operator, nr2, result);
     }
 }

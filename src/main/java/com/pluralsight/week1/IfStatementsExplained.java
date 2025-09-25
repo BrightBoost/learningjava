@@ -4,6 +4,20 @@ import java.util.Scanner;
 
 public class IfStatementsExplained {
     public static void main(String[] args) {
+        int age = 17;
+        double price;
+        if (age < 18) {
+            price = 18.00;
+            if(true) {
+                System.out.println("blabla");
+            }
+        } else if (age < 65) {
+            price = 25.00;
+        } else {
+            price = 18.00;
+        }
+        System.out.println("Price of admission: " + price);
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("What time is it?");
         int hour = scanner.nextInt();

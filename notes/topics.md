@@ -32,3 +32,6 @@
 - Scanner
 
 ## Thursday
+- AI and learning
+- if statement, if else, if else if else
+- string equality

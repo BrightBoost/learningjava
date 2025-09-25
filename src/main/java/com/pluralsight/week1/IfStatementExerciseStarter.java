@@ -10,6 +10,11 @@ public class IfStatementExerciseStarter {
         // Exercise 2: Even or odd
         int x = 10;
         // TODO: print "Even" if x is divisible by 2, otherwise "Odd"
+        if(x % 2 == 0) {
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
+        }
 
         // Exercise 3: Temperature check
         int temperature = 30; // celcius
@@ -30,10 +35,20 @@ public class IfStatementExerciseStarter {
         // Exercise 7: Outside safe range
         int speed = 120;
         // TODO: print "Unsafe speed" if speed < 30 or speed > 100, otherwise "Safe speed"
+        if(speed < 30 || speed > 100) {
+            System.out.println("unsafe speed");
+        } else {
+            System.out.println("safe speed");
+        }
 
         // Exercise 8: Leap year check (simplified)
         int year = 2025;
         // TODO: print "Leap year" if year divisible by 4 and not divisible by 100, otherwise "Not leap year"
+        if(year % 4 == 0 && year % 100 != 0) {
+            System.out.println("Leap year");
+        } else {
+            System.out.println("Not a leap year");
+        }
 
         // Exercise 9: Bigger number
         int a = 8;
