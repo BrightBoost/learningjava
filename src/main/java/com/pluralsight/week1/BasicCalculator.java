@@ -9,10 +9,10 @@ public class BasicCalculator {
 
         // get two numbers
         System.out.println("Please enter a number:");
-        double nr1 = scanner.nextDouble();
+        int nr1 = scanner.nextInt();
 
         System.out.println("Please enter another number:");
-        double nr2 = scanner.nextDouble();
+        int nr2 = scanner.nextInt();
         scanner.nextLine();
 
         // get an operation
@@ -39,11 +39,11 @@ public class BasicCalculator {
             result = nr1 * nr2;
             operator = "*";
         } else {
-            result = nr1 / nr2;
+            result = nr1 / (double) nr2;
             operator = "/";
         }
 
         // print the calculation and result
-        System.out.printf("%f %s %f = %f", nr1, operator, nr2, result);
+        System.out.printf("%d %s %d = %f", nr1, operator, nr2, result);
     }
 }
