@@ -38,3 +38,8 @@
 
 ## Friday
 - Static methods (including passing arguments and return)
+- Passing scanner around
+
+
+## Notes for Maaike
+- On Monday, start with exercise on page 110
