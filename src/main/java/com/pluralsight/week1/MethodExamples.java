@@ -1,6 +1,7 @@
 package com.pluralsight.week1;
 
 public class MethodExamples {
+
     public static void main(String[] args) {
         foo();
         String foo2 = foo2();

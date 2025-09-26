@@ -35,3 +35,6 @@
 - AI and learning
 - if statement, if else, if else if else
 - string equality
+
+## Friday
+- Static methods (including passing arguments and return)
