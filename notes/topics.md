@@ -42,4 +42,5 @@
 
 
 ## Notes for Maaike
-- On Monday, start with exercise on page 110
+- On Monday, complete the recap
+- On Monday, then continue with exercise on page 110

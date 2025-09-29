@@ -3,8 +3,10 @@ package com.pluralsight.week1;
 import java.util.Scanner;
 
 public class Recap {
-    public static void main(String[] args) {
+    static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        methodWithParams("Ermiyas", 9);
     }
 
     public static void recapPrimitives() {
@@ -87,15 +89,31 @@ public class Recap {
     }
 
     public static void scannerExample() {
+        System.out.println("What is your name, fav nr and fav color?");
+        String name = scanner.nextLine();
+        int favNr = scanner.nextInt();
+        scanner.nextLine();
+        String favColor = scanner.nextLine();
+        System.out.printf("hi %s, your fav nr is %d and fav color is %s", name, favNr, favColor);
 
     }
 
     public static void ifStatements() {
-
+        String name = scanner.nextLine();
+        if(name.equals("Maaike")) {
+            System.out.println("You again?!");
+        } else {
+            System.out.println("Nice to meet you!");
+        }
     }
 
-    public static void methodWithParams() {
-
+    public static void methodWithParams(String name, int nr) {
+        System.out.println("Hi " + name);
+        if(nr % 2 == 0) {
+            System.out.println(nr + " is an even nr!");
+        } else {
+            System.out.println(nr + " is an odd nr!");
+        }
     }
 
     public static int methodWithReturnType() {
