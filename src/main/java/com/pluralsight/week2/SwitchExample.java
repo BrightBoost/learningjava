@@ -5,9 +5,28 @@ import java.util.Scanner;
 public class SwitchExample {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        lengthyIfChain();
-        switchStatementAlternative();
+        switchStatementWithFewerBreakOnPurpose();
 
+    }
+
+    public static void switchStatementWithFewerBreakOnPurpose() {
+        String day = getDay();
+
+        switch (day) {
+            case "Monday":
+            case "Tuesday":
+            case "Wednesday":
+            case "Thursday":
+            case "Friday":
+                System.out.println("It's a weekday!");
+                break;
+            case "Saturday":
+            case "Sunday":
+                System.out.println("It's weekend!");
+                break;
+            default:
+                System.out.println("Don't know that day");
+        }
     }
 
     public static void switchStatementAlternative() {
