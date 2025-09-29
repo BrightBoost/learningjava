@@ -6,7 +6,9 @@ public class Recap {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        methodWithParams("Ermiyas", 9);
+        int result = methodWithReturnTypeAndParams(6, 6);
+        result = methodWithReturnTypeAndParams(methodWithReturnTypeAndParams(result, result), methodWithReturnTypeAndParams(result, result));
+        System.out.println(result);
     }
 
     public static void recapPrimitives() {
@@ -117,10 +119,11 @@ public class Recap {
     }
 
     public static int methodWithReturnType() {
-        return 3;
+        int nr = 5;
+        return nr;
     }
 
     public static int methodWithReturnTypeAndParams(int x, int y) {
-        return 3;
+        return x + y;
     }
 }
