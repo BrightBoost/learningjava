@@ -41,6 +41,3 @@
 - Passing scanner around
 
 
-## Notes for Maaike
-- On Monday, complete the recap
-- On Monday, then continue with exercise on page 110

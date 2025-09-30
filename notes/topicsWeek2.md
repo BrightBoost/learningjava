@@ -9,3 +9,7 @@
 - reinforcement-lesson.md (in the exercises folder)
 - optional: bonus part last page of the book
 - optional: switch exercise that will be there within 3 mins or so
+
+## Notes for Maaike
+- On Tuesday, start with car rental calculator + any questions about the above
+- Start new workbook!
