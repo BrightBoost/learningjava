@@ -15,5 +15,4 @@
 - optional: Workshop week 1
 
 ## Notes for Maaike
-- On Tuesday, start with car rental calculator + any questions about the above
-- Start new workbook!
+- On Wednesday, start with String Builders
