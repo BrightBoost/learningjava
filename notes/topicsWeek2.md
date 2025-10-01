@@ -16,10 +16,8 @@
   - Present value calc: PV=PMT×i1−(1+i)N1
 
 ## Notes for Maaike
-- On Wednesday, start with StringBuilders
-- "Pause day part" 
-- End of Wednesday + Thursday: object oriented
-- Thursday: object oriented
+- On Thursday, we'll start with rewriting the theater in oop
+- more workbook + more exercises
 - End of Thursday: code along with Maaike workshop 1
 - Friday morning: loops and arrays
 - Friday afternoon: workshop
