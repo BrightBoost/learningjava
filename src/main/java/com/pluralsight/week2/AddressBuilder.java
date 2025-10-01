@@ -20,7 +20,7 @@ public class AddressBuilder {
     }
 
     public static void buildAddressPart(String typeOfAddress, StringBuilder sb) {
-        sb.append(typeOfAddress + " street: \n");
+        sb.append(typeOfAddress + " address: \n");
         System.out.print(typeOfAddress + " street: ");
         sb.append(scanner.nextLine());
         sb.append("\n");
