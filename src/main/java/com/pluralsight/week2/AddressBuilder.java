@@ -33,6 +33,5 @@ public class AddressBuilder {
         System.out.println(typeOfAddress + " zip:");
         sb.append(scanner.nextLine());
         sb.append("\n");
-
     }
 }
