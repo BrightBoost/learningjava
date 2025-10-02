@@ -30,4 +30,8 @@ public class Reservation {
     public void setNrOfTickets(int nrOfTickets) {
         this.nrOfTickets = nrOfTickets;
     }
+
+    public void displayReservation() {
+        System.out.printf("%d %s reserved for %s under %s", nrOfTickets, nrOfTickets > 1 ? "tickets" : "ticket", date, name);
+    }
 }

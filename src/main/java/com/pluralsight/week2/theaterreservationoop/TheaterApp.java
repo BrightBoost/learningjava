@@ -9,7 +9,7 @@ public class TheaterApp {
 
     public static void main(String[] args) {
         Reservation reservation = getReservation();
-        displayReservation(reservation);
+        reservation.displayReservation();
     }
 
     public static Reservation getReservation() {
@@ -32,7 +32,5 @@ public class TheaterApp {
         return reservation;
     }
 
-    public static void displayReservation(Reservation reservation) {
-        System.out.printf("%d %s reserved for %s under %s", reservation.getNrOfTickets(), reservation.getNrOfTickets() > 1 ? "tickets" : "ticket", reservation.getDate(), reservation.getName());
-    }
+
 }
