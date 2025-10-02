@@ -11,6 +11,8 @@ public class App {
         Dog d = new Dog();
         d.bark();
 
-
+        System.out.println(8);
+        System.out.println("nlanla");
+        System.out.println(judysDog);
     }
 }

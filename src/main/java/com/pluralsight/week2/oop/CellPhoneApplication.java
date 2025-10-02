@@ -18,6 +18,15 @@ public class CellPhoneApplication {
         System.out.println("Who is the owner of the phone?");
         cp.setOwner(scanner.nextLine());
 
-        System.out.printf("The %s with serial number %d by carrier %s and phone nr %s is owned by %s.", cp.getModel(), cp.getSerialNumber(), cp.getCarrier(), cp.getPhoneNumber(), cp.getOwner());
+        CellPhone cp2 = new CellPhone(34234, "s22", "t-mobile", "088234234234", "Maaike");
+
+        display(cp);
+        display(cp2);
+        cp.dial(cp2.getPhoneNumber());
+        cp2.dial(cp);
+    }
+
+    public static void display(CellPhone cp) {
+        System.out.printf("The %s with serial number %d by carrier %s and phone nr %s is owned by %s.\n", cp.getModel(), cp.getSerialNumber(), cp.getCarrier(), cp.getPhoneNumber(), cp.getOwner());
     }
 }
