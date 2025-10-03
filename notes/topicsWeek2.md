@@ -17,6 +17,10 @@
 - Overloading
 - Working with objects
 
+## Friday
+- Arrays
+- Loops
+
 ## What we're working on now until 2PM, you choose:
 - Array exercise page 76 (test statistics)
 - Workshop 2 - neighborhood library
