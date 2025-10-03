@@ -1,6 +1,15 @@
 package com.pluralsight.week2;
 
 public class ArraysExplained {
+
+
+    public static void displayNumbers(int[] nums)
+    {
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i]+ " ");
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
         String[] names = {"Najib", "Jenver", "Henok", "Ermiyas", "Nicolas"};
         // if we need to alter the array, we need to work with the index
@@ -21,6 +30,8 @@ public class ArraysExplained {
         for(String name : names) {
             System.out.println(name);
         }
+
+        displayNumbers(new int[]{63, 65, 60, 53, 58, 37, 35, 31});
 
     }
 }
