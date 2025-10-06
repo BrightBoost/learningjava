@@ -21,14 +21,3 @@
 - Arrays
 - Loops
 
-## What we're working on now until 2PM, you choose:
-- Array exercise page 76 (test statistics)
-- Workshop 2 - neighborhood library
-- Optional: Array exercise 77 (vehicles)
-
-
-## Notes for Maaike
-- Work after break until 3.30PM
-- 3.30PM: Discuss array exercise page 76
-- Survey
-- On Monday you'll get more time for the workshop and/or we'll discuss it
