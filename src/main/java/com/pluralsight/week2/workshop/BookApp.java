@@ -60,13 +60,30 @@ public class BookApp {
     public static void showCheckedOutBooks() {
         for(int i = 0; i < books.length; i++) {
             if(books[i].isCheckedOut()) {
-                System.out.println(i + ": " + books[i].getTitle() + " | " + books[i].getIsbn() + " | " + books[i].getId());
+                System.out.println(i + ": " + books[i].getTitle() + " | " + books[i].getIsbn() + " | " + books[i].getCheckedOutTo() + " | " + books[i].getId());
             }
         }
+        System.out.println("Choose C to check in a book and X to go back to the homescreen");
+        String choice = scanner.nextLine();
+        if(choice.equalsIgnoreCase("c")) {
+            checkInBook();
+        } // you should do handling of anything other than X here
     }
 
     public static void checkInBook() {
-
+        System.out.println("What book id do you want to checkin?");
+        int bookId = scanner.nextInt();
+        scanner.nextLine();
+        boolean foundBook = false;
+        for(int i = 0; i < books.length && !foundBook; i++) {
+            if(books[i].getId() == bookId) {
+                books[i].checkIn();
+                foundBook = true;
+            }
+        }
+        if(!foundBook) {
+            System.out.println("Didn't find that id... CHECKIN FAILED");
+        }
     }
 
     public static Book[] loadBooks() {
