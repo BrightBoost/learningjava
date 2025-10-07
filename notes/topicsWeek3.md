@@ -11,9 +11,10 @@
 ## Tuesday
 - Start with exception and try catch explanation again
 - Famous quotes exercise right after
-
+- File reading
+- 
 ## Friday start capstone
 - Do project board start together (make sure to make them public)
 
 ## We're currently working on:
-- Famous quotes exercise
+- Exercises on page 15-18
