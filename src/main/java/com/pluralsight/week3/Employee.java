@@ -13,6 +13,10 @@ public class Employee {
         this.payRate = payRate;
     }
 
+    public String toCsvPayrollString() {
+        return employeeId + "|" + name + "|" + getGrossPay();
+    }
+
     public double getGrossPay() {
         return payRate * hoursWorked;
     }

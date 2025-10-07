@@ -15,6 +15,8 @@
 - File writing
 
 ## Wednesday
+- recap payroll calculator
+- another read / write exercise
 - List and maps
 
 ## Thursday
