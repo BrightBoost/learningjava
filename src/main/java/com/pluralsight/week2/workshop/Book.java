@@ -18,6 +18,7 @@ public class Book {
         this.checkedOutTo = checkedOutTo;
     }
 
+
     public void checkOut(String name) {
         this.checkedOutTo = name;
         this.isCheckedOut = true;

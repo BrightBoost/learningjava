@@ -8,6 +8,12 @@
 1.30PM-2.00PM Recap for assessment
 2.00PM-3.20PM Assessment (120 mins) - you can continue till 4PM
 
+## Tuesday
+- Start with exception and try catch explanation again
+- Famous quotes exercise right after
 
-## Friday start on capstone
-- 
+## Friday start capstone
+- Do project board start together (make sure to make them public)
+
+## We're currently working on:
+- Famous quotes exercise
