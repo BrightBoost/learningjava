@@ -1,14 +1,14 @@
 package com.pluralsight.week3.videogameexercise;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class VideoGameApp {
     public static void main(String[] args) {
+        appendGame();
         printStats(readCsvFile());
+
     }
 
     public static void printStats(List<VideoGame> videoGames) {
@@ -61,5 +61,17 @@ public class VideoGameApp {
             System.out.println(e.getMessage());
         }
         return videoGames;
+    }
+
+    public static void appendGame() {
+        VideoGame game = new VideoGame("minecraft", "switch", "adventure", 2015, 7.4);
+        try {
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("files/videogames.csv", true));
+            bufferedWriter.write(game.toCsvString() + "\n");
+            bufferedWriter.close();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 }
