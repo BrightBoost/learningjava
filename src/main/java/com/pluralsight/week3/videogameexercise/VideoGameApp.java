@@ -8,6 +8,32 @@ import java.util.List;
 
 public class VideoGameApp {
     public static void main(String[] args) {
+        printStats(readCsvFile());
+    }
+
+    public static void printStats(List<VideoGame> videoGames) {
+        System.out.println("Games loaded: " + videoGames.size());
+        if(videoGames.size() == 0) {
+            System.out.println("No more data, because no games.");
+            return;
+        }
+        double totalRating = 0;
+        int oldestReleaseYear = videoGames.get(0).getYear();
+        int nrOfPcTitles = 0;
+
+        for(int i = 0; i < videoGames.size(); i++) {
+            totalRating += videoGames.get(i).getRating();
+            if(videoGames.get(i).getPlatform().equalsIgnoreCase("PC")) {
+                nrOfPcTitles++;
+            }
+            if(oldestReleaseYear > videoGames.get(i).getYear()) {
+                oldestReleaseYear = videoGames.get(i).getYear();
+            }
+        }
+
+        System.out.println("Nr of pc titles: " + nrOfPcTitles);
+        System.out.println("Oldest release year: " + oldestReleaseYear);
+        System.out.println("Average rating: " + totalRating / videoGames.size());
 
     }
 
