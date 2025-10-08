@@ -24,6 +24,10 @@ public class ListExplained {
             System.out.println(languages.get(i));
         }
 
+        List<String> test = new ArrayList<>(List.of("bla", "bla"));
+        test.add("bla");
+
+
 
     }
 }
