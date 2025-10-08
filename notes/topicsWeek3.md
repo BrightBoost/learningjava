@@ -16,8 +16,9 @@
 
 ## Wednesday
 - recap payroll calculator
-- another read / write exercise
-- List and maps
+- short explanation on list
+- another read / write exercise (but with list)
+- maps
 
 ## Thursday
 - workshop until 2PM
