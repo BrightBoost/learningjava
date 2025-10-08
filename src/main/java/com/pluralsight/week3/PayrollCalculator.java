@@ -11,6 +11,7 @@ public class PayrollCalculator {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             bufferedReader.readLine();
             String employeeString;
+
             int index = 0;
             while((employeeString = bufferedReader.readLine()) != null) {
                 // split on the pipe
