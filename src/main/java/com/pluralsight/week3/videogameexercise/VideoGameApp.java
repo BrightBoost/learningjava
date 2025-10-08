@@ -6,7 +6,7 @@ import java.util.List;
 
 public class VideoGameApp {
     public static void main(String[] args) {
-        appendGame();
+        appendGame(new VideoGame("minecraft", "switch", "adventure", 2015, 7.4));
         printStats(readCsvFile());
 
     }
@@ -63,8 +63,7 @@ public class VideoGameApp {
         return videoGames;
     }
 
-    public static void appendGame() {
-        VideoGame game = new VideoGame("minecraft", "switch", "adventure", 2015, 7.4);
+    public static void appendGame(VideoGame game) {
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("files/videogames.csv", true));
             bufferedWriter.write(game.toCsvString() + "\n");
