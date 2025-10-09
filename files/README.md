@@ -57,7 +57,7 @@ Luna,British Shorthair,2,Grey
 Milo,Siamese,1,Cream
 Nala,Maine Coon,3,Brown
 
-````
+```
 
 ### Running the Project
 You can run it from your terminal or IDE once you’ve implemented your logic:
@@ -65,13 +65,8 @@ You can run it from your terminal or IDE once you’ve implemented your logic:
 ```bash
 javac src/Main.java
 java src/Main
-````
-
-or for Python:
-
-```bash
-python main.py
 ```
+
 
 ---
 
