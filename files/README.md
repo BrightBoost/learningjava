@@ -2,8 +2,6 @@
 
 Welcome to the **Kitten README** — a simple file to help you working with READMEs.  
 
-This project demonstrates basic coding principles such as **data modeling**, **collections**, and **file handling**, but it’s language-agnostic — you can use Java, Python, or any other language to build your version.
-
 ---
 
 ## 📚 Table of Contents
