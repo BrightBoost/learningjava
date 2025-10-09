@@ -1,6 +1,6 @@
 package com.pluralsight.week3.workshop;
 
-import java.sql.SQLOutput;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -109,6 +109,8 @@ public class App {
                 1) name
                 2) price
                 3) department
+                4) released this month
+                5) released last month
                 """;
 
         switch (getNumericChoice(options)) {
@@ -133,6 +135,22 @@ public class App {
                 List<Product> matchesByDep = ProductManager.getProductsByDepartment(products, depToSearchFor);
                 ProductManager.displayProducts(matchesByDep);
                 break;
+            case 4:
+                LocalDate today = LocalDate.now();
+                LocalDate firstDayOfMonth = LocalDate.of(today.getYear(), today.getMonth(), 1);
+                System.out.println(firstDayOfMonth);
+                List<Product> productsThisMonth = ProductManager.getProductByDateRange(products, firstDayOfMonth, today);
+                ProductManager.displayProducts(productsThisMonth);
+                break;
+            case 5:
+                LocalDate todayDate = LocalDate.now();
+                LocalDate lastMonth = todayDate.minusMonths(1);
+                LocalDate startLastMonth = LocalDate.of(lastMonth.getYear(), lastMonth.getMonth(), 1);
+                LocalDate endLastMonth = LocalDate.of(todayDate.getYear(), todayDate.getMonth(), 1).minusDays(1);
+                List<Product> productsLastMonth = ProductManager.getProductByDateRange(products, startLastMonth, endLastMonth);
+                ProductManager.displayProducts(productsLastMonth);
+                break;
+
         }
 
     }

@@ -78,5 +78,15 @@ public class ProductManager {
         }
         return null;
     }
+    public static List<Product> getProductByDateRange(List<Product> products, LocalDate start, LocalDate end) {
+        List<Product> filteredProducts = new ArrayList<>();
+
+        for(Product product : products) {
+            if(product.getReleaseDate().isAfter(start) && product.getReleaseDate().isBefore(end)) {
+                filteredProducts.add(product);
+            }
+        }
+        return filteredProducts;
+    }
 
 }
