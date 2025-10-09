@@ -78,7 +78,8 @@ public class ProductManager {
         }
         return null;
     }
-    public static List<Product> getProductByDateRange(List<Product> products, LocalDate start, LocalDate end) {
+
+    public static List<Product> getProductsByDateRange(List<Product> products, LocalDate start, LocalDate end) {
         List<Product> filteredProducts = new ArrayList<>();
 
         for(Product product : products) {

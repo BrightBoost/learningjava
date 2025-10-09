@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class App {
     static Scanner scanner = new Scanner(System.in);
+    // later you'll never make this two static
     static List<Product> products = ProductManager.loadProductsFromFile("files/products.csv");
     static List<Product> cart = new ArrayList<>();
 
@@ -139,7 +140,7 @@ public class App {
                 LocalDate today = LocalDate.now();
                 LocalDate firstDayOfMonth = LocalDate.of(today.getYear(), today.getMonth(), 1);
                 System.out.println(firstDayOfMonth);
-                List<Product> productsThisMonth = ProductManager.getProductByDateRange(products, firstDayOfMonth, today);
+                List<Product> productsThisMonth = ProductManager.getProductsByDateRange(products, firstDayOfMonth, today);
                 ProductManager.displayProducts(productsThisMonth);
                 break;
             case 5:
@@ -147,7 +148,7 @@ public class App {
                 LocalDate lastMonth = todayDate.minusMonths(1);
                 LocalDate startLastMonth = LocalDate.of(lastMonth.getYear(), lastMonth.getMonth(), 1);
                 LocalDate endLastMonth = LocalDate.of(todayDate.getYear(), todayDate.getMonth(), 1).minusDays(1);
-                List<Product> productsLastMonth = ProductManager.getProductByDateRange(products, startLastMonth, endLastMonth);
+                List<Product> productsLastMonth = ProductManager.getProductsByDateRange(products, startLastMonth, endLastMonth);
                 ProductManager.displayProducts(productsLastMonth);
                 break;
 
