@@ -20,7 +20,7 @@ This project demonstrates basic coding principles such as **data modeling**, **c
 
 ---
 
-## 🐾 About the Project
+## About the Project
 
 The **Kitten Directory App** helps you manage and display information about kittens from a simple data file.  
 It’s a great exercise to understand:
@@ -32,7 +32,7 @@ It’s a great exercise to understand:
 
 ---
 
-## ✨ Features
+## Features
 
 - 🐈 Add new kittens  
 - 📋 Display all kittens  
@@ -42,7 +42,7 @@ It’s a great exercise to understand:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 You’ll need:
@@ -77,7 +77,7 @@ python main.py
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 kitten-directory/
@@ -97,7 +97,7 @@ kitten-directory/
 
 ---
 
-## 💻 Code Examples
+## Code Examples
 
 Here’s an example of what your **Kitten class** might look like:
 
@@ -121,7 +121,7 @@ public class Kitten {
 
 ---
 
-## 🖼️ Images
+## Images
 
 Here’s an example of an embedded image (make sure the file exists):
 
@@ -132,7 +132,7 @@ Or link to a kitten gif online:
 
 ---
 
-## 🧾 Markdown Reference
+## Markdown Reference
 
 ### Text Styles
 
@@ -173,7 +173,7 @@ Or link to a kitten gif online:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the project
 2. Create a new branch (`git checkout -b feature/amazing-feature`)
@@ -183,14 +183,14 @@ Or link to a kitten gif online:
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the MIT License.
 See `LICENSE.txt` for more information.
 
 ---
 
-## 🧶 Author
+## Author
 
 Created with ☕ and ❤️ by **Zia**
 📧 [zia@example.com](mailto:zia@example.com)
