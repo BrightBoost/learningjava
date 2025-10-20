@@ -5,4 +5,4 @@
 - Self reflection internship readiness
 - 
 ## What we are working onr ight now
-- Page 9 workbook 4a
+- Page 28 workbook 4a
