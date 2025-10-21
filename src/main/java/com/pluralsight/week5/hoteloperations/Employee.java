@@ -6,13 +6,15 @@ public class Employee {
     private String department;
     private double payRate;
     private double hoursWorked;
+    private double startTime;
 
-    public Employee(long employeeId, String name, String department, double payRate, double hoursWorked) {
+    public Employee(long employeeId, String name, String department, double payRate, double hoursWorked, double startTime) {
         this.employeeId = employeeId;
         this.name = name;
         this.department = department;
         this.payRate = payRate;
         this.hoursWorked = hoursWorked;
+        this.startTime = startTime;
     }
 
     public long getEmployeeId() {
@@ -73,6 +75,15 @@ public class Employee {
 
     public double getTotalPay() {
         return hoursWorked * payRate;
+    }
+
+    // regular methods
+    public void punchIn(double time) {
+        startTime = time;
+    }
+
+    public void punchOut(double time) {
+        hoursWorked += (time - startTime);
     }
 
 }

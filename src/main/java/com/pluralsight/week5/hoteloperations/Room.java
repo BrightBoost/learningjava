@@ -46,4 +46,18 @@ public class Room {
             return false;
         }
     }
+
+    // regular methods
+    public void checkIn() {
+        isOccupied = true;
+        isDirty = true;
+    }
+
+    public void checkOut() {
+        isOccupied = false;
+    }
+
+    public void cleanRoom() {
+        isDirty = false;
+    }
 }
