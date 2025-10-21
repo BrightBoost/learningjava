@@ -1,5 +1,7 @@
 package com.pluralsight.week5.hoteloperations;
 
+import java.time.LocalTime;
+
 public class Employee {
     private long employeeId;
     private String name;
@@ -78,12 +80,27 @@ public class Employee {
     }
 
     // regular methods
+    public void punchIn() {
+        startTime = getTimeAsDouble();
+    }
+
     public void punchIn(double time) {
         startTime = time;
     }
 
+    public void punchOut() {
+        hoursWorked += (getTimeAsDouble() - startTime);
+    }
+
     public void punchOut(double time) {
         hoursWorked += (time - startTime);
+    }
+
+    public double getTimeAsDouble() {
+        LocalTime lt = LocalTime.now();
+        double hours = lt.getHour();
+        double minutes = lt.getMinute() / 60.0;
+        return hours + minutes;
     }
 
 }
