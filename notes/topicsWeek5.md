@@ -7,6 +7,7 @@
 ## Tuesday
 - Internship readiness roles (see `roles.md`)
 - Class review continued
+- JUnit until page 57
 
-## What we are working onr ight now
-- Page 45 workbook 4a
+## What we are working on right now
+- Mini exercise JUnit
