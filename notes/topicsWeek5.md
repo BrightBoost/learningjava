@@ -11,3 +11,6 @@
 
 ## What we are working on right now
 - Mini exercise JUnit
+
+## Notes for Maaike
+- Wednesday discuss Junit mini exercise
