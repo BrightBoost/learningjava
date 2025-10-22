@@ -29,4 +29,35 @@ public class CalculatorTest {
         // assert
         assertEquals(2, result);
     }
+
+    @Test
+    void multiplyTwoPositiveNumbers_expectPositiveOutcome() {
+        // arrange
+        Calculator calculator = new Calculator();
+
+        // act
+        double result = calculator.multiply(3, 4);
+
+        // assert
+        assertEquals(12, result);
+    }
+    @Test
+    void divideTwoPositiveNumbers_expectPositiveOutcome() {
+        // arrange
+        Calculator calculator = new Calculator();
+
+        // act
+        double result = calculator.divide(3, 4);
+
+        // assert
+        assertEquals(0.75, result);
+    }
+    @Test
+    void divideByZero_expectArithmeticException() {
+        // arrange
+        Calculator calculator = new Calculator();
+
+        // act and assert
+        assertThrows(ArithmeticException.class, () -> calculator.divide(1, 0));
+    }
 }
