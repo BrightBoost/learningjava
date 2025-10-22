@@ -9,8 +9,10 @@
 - Class review continued
 - JUnit until page 57
 
+## Wednesday
+- More JUnit
+
 ## What we are working on right now
 - Mini exercise JUnit
-
-## Notes for Maaike
-- Wednesday discuss Junit mini exercise
+- exercise on page 67
+- internship readiness survey 
