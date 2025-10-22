@@ -11,8 +11,10 @@
 
 ## Wednesday
 - More JUnit
+- Static
 
 ## What we are working on right now
-- Mini exercise JUnit
-- exercise on page 67
-- internship readiness survey 
+- Static exercise on page 79 and 80
+- Mini exercise JUnit (optional)
+- exercise on page 67 (optional)
+- MANDATORY! internship readiness survey 
