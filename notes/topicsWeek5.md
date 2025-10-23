@@ -13,13 +13,10 @@
 - More JUnit
 - Static
 
-## What we are working on right now
-- Static exercise on page 79 and 80
-- OOP_1 and OOP_2 (optional)
-- Mini exercise JUnit (optional)
-- exercise on page 67 (optional)
-- MANDATORY! internship readiness survey 
+## Thursday
+- More static, more JUnit
+- Class relations
 
-## Notes for Maaike
-- Discuss static exercise
-- Class interaction
+## What we are working on right now
+- Blackjack exercise (page 92) + Workshop
+- MANDATORY! internship readiness survey 

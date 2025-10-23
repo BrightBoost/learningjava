@@ -1,5 +1,6 @@
 package com.pluralsight.week5;
 
+import com.pluralsight.week5.staticexercises.NameFormatter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

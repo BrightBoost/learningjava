@@ -1,4 +1,4 @@
-package com.pluralsight.week5;
+package com.pluralsight.week5.staticexercises;
 
 public class NameFormatter {
     public static String format(String firstName, String lastName) {
