@@ -19,3 +19,7 @@
 - Mini exercise JUnit (optional)
 - exercise on page 67 (optional)
 - MANDATORY! internship readiness survey 
+
+## Notes for Maaike
+- Discuss static exercise
+- Class interaction
