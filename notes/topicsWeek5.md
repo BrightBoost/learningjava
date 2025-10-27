@@ -17,6 +17,7 @@
 - More static, more JUnit
 - Class relations
 
-## What we are working on right now
-- Blackjack exercise (page 92) + Workshop
-- MANDATORY! internship readiness survey 
+## Notes
+- Next Monday will start with a few hours to wrap up the workshop
+- Right before lunch we'll discuss the workshop (last 30 minutes or so)
+

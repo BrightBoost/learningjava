@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+        System.out.println(3+ 5 + "Java" + 2 + 5);
         Scanner scanner = new Scanner(System.in);
         System.out.println("What's the name of player 1?");
         String namePlayer1 = scanner.nextLine();
