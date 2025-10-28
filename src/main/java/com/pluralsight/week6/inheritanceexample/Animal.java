@@ -6,6 +6,25 @@ public class Animal {
     private String color;
     private double weight;
 
+    public Animal(String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
+    }
+
+    // constructor calls super() first
+    // if no super() call is defined, it calls super() without arguments
+    // if the super (parent) class does not have a constructor without params, that's a problem
+    // super() can then not be called and has to be replaced with super(and, then, the, args)
+
+    public Animal(String name, int age, String color, double weight) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
+        this.weight = weight;
+        System.out.println("In animal constructor with params");
+    }
+
     public String getName() {
         return name;
     }
