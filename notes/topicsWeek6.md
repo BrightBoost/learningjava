@@ -18,6 +18,9 @@
 
 ## Thursday
 - protected
+- recap
+- branches
+- start workshop
 
 ## What we're working on right now
 - recap exercise - exercises/week6/recap.md
