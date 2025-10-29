@@ -14,7 +14,7 @@ public class App {
         Cat cat = new Cat("Leo", 2, "blue", 50);
         cat.meow();
 
-        Animal animal = new Animal("Axel", 2, "blue", 50);
+        //Animal animal = new Animal("Axel", 2, "blue", 50);
 
         Axolotl axolotl = new Axolotl("Axel", 2, "pink", 50);
         axolotl.blub();
@@ -24,7 +24,7 @@ public class App {
         animals.add(dog);
         animals.add(dog1);
         animals.add(cat);
-        animals.add(animal);
+       // animals.add(animal);
         animals.add(axolotl);
 
         System.out.println(dog.getClass());

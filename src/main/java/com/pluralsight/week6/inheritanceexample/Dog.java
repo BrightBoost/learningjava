@@ -8,4 +8,9 @@ public class Dog extends Animal{
     public void bark() {
         System.out.println(getName() + " says: woof woof woof woof");
     }
+
+    @Override
+    public void eat() {
+        System.out.println("hap hap hap hap gone");
+    }
 }

@@ -26,4 +26,9 @@ public class Cat extends Animal {
         System.out.println(getName() + " says: MEOW");
     }
 
+    @Override
+    public void eat() {
+        System.out.println("mehh maybe later... nibble on the plant");
+    }
+
 }

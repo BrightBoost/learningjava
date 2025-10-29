@@ -7,7 +7,15 @@ public class Axolotl extends Animal {
         super(name, age, color, weight);
     }
 
+    @Override
+    public void eat() {
+        System.out.println("gggggrrrrraaP: one big bite, done");
+    }
+
     public void blub() {
         System.out.println(getName() + " says: blub");
     }
+
+
+
 }
