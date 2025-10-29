@@ -75,6 +75,7 @@ In your `main()` method:
 * Add a `rarity` level to `MagicItem` and a `numberOfStrings` or `isAcoustic` to `MusicItem`.
 * Make a combined `List<Item>` and loop through it to call `use()` — showing off polymorphism at the top level.
 * Add a method to calculate total value of a performer’s equipment.
+* Add unit tests!
 
 ---
 
