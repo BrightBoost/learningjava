@@ -22,6 +22,9 @@
 - branches
 - start workshop
 
+# Friday
+- afternoon: recap
+
 ## What we're working on right now
 - recap exercise - exercises/week6/recap.md
 - shop.md mini project
