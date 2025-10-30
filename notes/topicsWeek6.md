@@ -25,3 +25,5 @@
 ## What we're working on right now
 - recap exercise - exercises/week6/recap.md
 - shop.md mini project
+- or the battle for hogwarts here: exercises/week6/extraExercise.md
+- or, the workshop of this week
