@@ -29,6 +29,7 @@ public class Student extends Person {
         this.subjects = subjects;
     }
 
+    @Override
     public void printSummary(){
         System.out.println(getName() + " has an average GPA of " + gpa);
     }
