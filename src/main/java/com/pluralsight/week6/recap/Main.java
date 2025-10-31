@@ -13,6 +13,11 @@ public class Main {
 
         Person p = new Student("Judy", 3.9, List.of("computer science 101", "computer science 201"));
         p = randomThing();
+        if(p instanceof Student s) {
+            System.out.println("It is a student! With this many courses:" + s.getSubjects().size());
+        } else {
+            System.out.println("It's a person!");
+        }
         p.printSummary();
 
     }
