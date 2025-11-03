@@ -20,6 +20,9 @@ public class Main {
         }
         p.printSummary();
 
+        // cannot instantiate abstract class
+//        Animal a = new Animal();
+
     }
 
     public static Person randomThing() {
