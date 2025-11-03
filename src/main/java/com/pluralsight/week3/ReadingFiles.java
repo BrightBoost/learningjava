@@ -7,8 +7,7 @@ import java.io.IOException;
 public class ReadingFiles {
     public static void main(String args[])
     {
-        try
-        {
+        try {
             // create a FileReader object connected to the File
             FileReader fileReader = new FileReader("files/poem.txt");
             // create a BufferedReader to manage input stream
@@ -20,8 +19,7 @@ public class ReadingFiles {
             }
             // close the stream and release the resources
             bufReader.close();
-        }
-        catch(IOException e) {
+        } catch(IOException e) {
         // display stack trace if there was an error
             e.printStackTrace();
         }
