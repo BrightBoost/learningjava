@@ -6,6 +6,7 @@
 - 2PM start assessment the latest (until 4PM)
 
 ## Tuesday
+- SELF EVALUATION
 - Wrap up m2 (interface based programming)
 - Generics
 - Wrap up at 2.30pm to go voting
