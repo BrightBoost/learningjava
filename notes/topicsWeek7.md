@@ -22,7 +22,8 @@
 - START CAPSTONE
 
 ## What we're working on now
-- exercise page 29 workbook 6a
+- exercise page 58 workbook 6a
+- mini exercises on generics (maaike will push them in 5 mins or so)
 - time left? self evaluation
 
 ## Content debt
