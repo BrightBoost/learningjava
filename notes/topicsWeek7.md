@@ -23,7 +23,7 @@
 
 ## What we're working on now
 - exercise page 58 workbook 6a
-- mini exercises on generics (maaike will push them in 5 mins or so)
+- optional: mini exercises on generics (last 5 are challenging)
 - time left? self evaluation
 
 ## Content debt
