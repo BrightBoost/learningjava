@@ -9,5 +9,9 @@ public class App {
 
         Chihuahua dog1 = chihuahuaBag.getContent();
         Laptop laptop = laptopBag.getContent();
+
+        NumberPair<Integer> integerNumberPair = new NumberPair<>(1, 2);
+        NumberPair<Double> doubleNumberPair = new NumberPair<>(1.0, 2.0);
+//        NumberPair<String> stringNumberPair
     }
 }
