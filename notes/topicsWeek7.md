@@ -22,4 +22,5 @@
 - START CAPSTONE
 
 ## What we're working on now
-- exercise page 18 workbook 6a
+- exercise page 29 workbook 6a
+- time left? self evaluation
