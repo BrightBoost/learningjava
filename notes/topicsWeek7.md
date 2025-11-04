@@ -24,3 +24,6 @@
 ## What we're working on now
 - exercise page 29 workbook 6a
 - time left? self evaluation
+
+## Content debt
+- Working with interfaces 2-2
