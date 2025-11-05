@@ -31,8 +31,7 @@
 - START CAPSTONE
 
 ## What we're working on now
-- exercise page 58 workbook 6a
-- optional: mini exercises on generics (last 5 are challenging)
+- https://github.com/BrightBoost/learningjava/blob/main/exercises/week7/lambdaMiniExercises.md
 - time left? self evaluation
 
 ## Content debt
