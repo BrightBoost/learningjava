@@ -16,8 +16,8 @@
   - functional interface: interface with exactly one abstract method
   - class implementing that interface
   - anonymous implementation
-  x lambda expressions
-  - exercises lambda expressions
+  - lambda expressions
+  x exercises lambda expressions
   - examples of how to use lambda expressions for cool stuff
   - exercises to use lambda expressions for cool stuff
   - look at Java's built in cool stuff: lambda expressions in the stream api

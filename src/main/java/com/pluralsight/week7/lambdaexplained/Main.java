@@ -36,8 +36,8 @@ public class Main {
         printer2.print("jajaja");
 
         // lambda expressions
-
-        Printer lambdaPrinter1 = s -> System.out.println("lambda printer: " + s);
+        String prefix = "lambda printer: ";
+        Printer lambdaPrinter1 = s -> System.out.println(prefix + s);
         lambdaPrinter1.print("taaadaaa");
 
         // test for length bigger than 10
@@ -63,6 +63,9 @@ public class Main {
         // one line statement, no { } needed
         // one line statement, no return needed
         // one argument, no () needed
+
+        printSomething(s -> System.out.println(s), "text");
+        printSomething(s -> System.out.println("blbla" + s), "text");
 
     }
 
