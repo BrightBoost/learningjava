@@ -13,10 +13,10 @@
 ## Wednesday
 - SELF EVALUATION
 - Java streams
-  - functional interface
+  - functional interface: interface with exactly one abstract method
   - class implementing that interface
   - anonymous implementation
-  - lambda expressions
+  x lambda expressions
   - exercises lambda expressions
   - examples of how to use lambda expressions for cool stuff
   - exercises to use lambda expressions for cool stuff
