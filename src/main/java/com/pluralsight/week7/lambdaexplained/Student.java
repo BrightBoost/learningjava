@@ -10,6 +10,11 @@ public class Student {
         this.name = name;
     }
 
+    public Student(String name, List<String> courses) {
+        this.name = name;
+        this.courses = courses;
+    }
+
     public String getName() {
         return name;
     }
@@ -30,5 +35,13 @@ public class Student {
         return courses.stream()
                 .filter(course -> course.contains(name))
                 .toList();
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", courses=" + courses +
+                '}';
     }
 }

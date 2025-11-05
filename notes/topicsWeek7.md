@@ -17,9 +17,9 @@
   - class implementing that interface
   - anonymous implementation
   - lambda expressions
-  x exercises lambda expressions
+  - exercises lambda expressions
   - examples of how to use lambda expressions for cool stuff
-  - exercises to use lambda expressions for cool stuff
+  x exercises to use lambda expressions for cool stuff
   - look at Java's built in cool stuff: lambda expressions in the stream api
   - exercises with stream api
 
@@ -31,8 +31,8 @@
 - START CAPSTONE
 
 ## What we're working on now
-- https://github.com/BrightBoost/learningjava/blob/main/exercises/week7/lambdaMiniExercises.md
-- time left? self evaluation
+- appliedLambdaMiniExercises.md
+- self evaluation
 
 ## Content debt
 - Working with interfaces 2-2
