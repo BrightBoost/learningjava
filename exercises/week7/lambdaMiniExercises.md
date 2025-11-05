@@ -95,7 +95,7 @@ Change it so that it **subtracts** instead of adds.
 
 ---
 
-### **5. Use multiple lines in a lambda**
+### **OPTIONAL 5. Use multiple lines in a lambda**
 
 **Concept:** If you need multiple statements, wrap them in `{}` and use `return` explicitly like in a normal method body.
 
