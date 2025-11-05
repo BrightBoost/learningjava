@@ -6,13 +6,22 @@
 - 2PM start assessment the latest (until 4PM)
 
 ## Tuesday
-- SELF EVALUATION
 - Wrap up m2 (interface based programming)
 - Generics
 - Wrap up at 2.30pm to go voting
 
 ## Wednesday
+- SELF EVALUATION
 - Java streams
+  - functional interface
+  - class implementing that interface
+  - anonymous implementation
+  - lambda expressions
+  - exercises lambda expressions
+  - examples of how to use lambda expressions for cool stuff
+  - exercises to use lambda expressions for cool stuff
+  - look at Java's built in cool stuff: lambda expressions in the stream api
+  - exercises with stream api
 
 ## Thursday
 - Java packages
