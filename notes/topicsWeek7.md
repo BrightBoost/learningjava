@@ -25,7 +25,7 @@
 
 ## Thursday
 - Java packages
-- Intellij 3 workbook
+- Intellij 3 workbook (creating jars)
 
 ## Friday 
 - START CAPSTONE

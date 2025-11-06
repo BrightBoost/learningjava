@@ -1,6 +1,6 @@
 package com.pluralsight.week7;
 
-public abstract class Person {
+public class Person {
     private String name;
     private int age;
 
