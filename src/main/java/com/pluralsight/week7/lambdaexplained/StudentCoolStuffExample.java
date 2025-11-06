@@ -24,9 +24,6 @@ public class StudentCoolStuffExample {
 
         System.out.println(studentsCalledRicky);
         System.out.println(studentsWithMath);
-
-
-
     }
 
     public static List<Student> filterStudents(StudentFilter studentFilter, List<Student> originalStudents) {

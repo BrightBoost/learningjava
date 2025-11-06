@@ -31,7 +31,8 @@
 - START CAPSTONE
 
 ## What we're working on now
-- appliedLambdaMiniExercises.md
+- workbook 68 and 83 exercise
+- [streamMiniExercises.md](../exercises/week7/streams/streamMiniExercises.md)
 - self evaluation
 
 ## Content debt
