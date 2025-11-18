@@ -216,13 +216,6 @@
 
 ---
 
-Nice one, I love these “manager question” style tasks 🤓
-
-Here are **10 more challenging, all-in-one exercises**.
-No JOINs needed (they *can* use subqueries, GROUP BY, HAVING, aggregates, etc.).
-I’ve made them realistic management questions.
-
----
 
 ## CHALLENGE: Northwind — 5 “Management Report” Exercises
 
