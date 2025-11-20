@@ -11,7 +11,7 @@
 
 ## Tuesday
 - Morning: project work (group or individual)
-- Afternoon: optional Q&A recap session
+- Afternoon: optional mini group project (to feel the github collab pain)
 
 ## Wednesday
 - Morning: project work (group or individual)
