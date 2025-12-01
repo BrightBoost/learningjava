@@ -3,4 +3,4 @@
 ## Monday
 
 ## What we are working on right now
-Exercise page 24
+Exercise 2 (page 40) and 3 (page 47)
