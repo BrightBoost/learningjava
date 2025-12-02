@@ -1,20 +1,32 @@
 package com.pluralsight.week10.workbookexercise;
 
+import org.apache.commons.dbcp2.BasicDataSource;
+
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.Scanner;
 
-public class NorthwindProducts {
+public class NorthwindProductsWithDataSource {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
+        if(args.length < 2) {
+            System.out.println("We need two program variables");
+            System.exit(1);
+        }
+        BasicDataSource dataSource = new BasicDataSource();
+        dataSource.setUrl("jdbc:mysql://localhost:3306/northwind");
+        dataSource.setUsername(args[0]);
+        dataSource.setPassword(args[1]);
+
         displayHomescreen();
         int choice = Integer.parseInt(getUserInput("Select an option:"));
         switch(choice) {
             case 2:
-                displayAllCustomers(args);
+                displayAllCustomers(dataSource);
                 break;
             case 3:
-                displayAllCategories(args);
-                diisplayProductsByCategoryId(args);
+                displayAllCategories(dataSource);
+                diisplayProductsByCategoryId(dataSource);
                 break;
             default:
                 System.out.println("Not available now.");
@@ -37,8 +49,8 @@ public class NorthwindProducts {
         return scanner.nextLine();
     }
 
-    public static void displayAllCustomers(String[] args) {
-        try( Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
+    public static void displayAllCustomers(DataSource dataSource) {
+        try( Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM customers");
              ResultSet resultSet = statement.executeQuery();
         ) {
@@ -52,8 +64,8 @@ public class NorthwindProducts {
         }
     }
 
-    public static void displayAllCategories(String[] args) {
-        try( Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
+    public static void displayAllCategories(DataSource dataSource) {
+        try( Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM categories ORDER BY CategoryID");
              ResultSet resultSet = statement.executeQuery();
         ) {
@@ -67,9 +79,9 @@ public class NorthwindProducts {
         }
     }
 
-    public static void diisplayProductsByCategoryId(String[] args) {
+    public static void diisplayProductsByCategoryId(DataSource dataSource) {
         int catId = Integer.parseInt(getUserInput("Which category do you want to see? Please enter the ID:"));
-        try( Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
+        try( Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM Products WHERE CategoryID = ?");
         ) {
 
