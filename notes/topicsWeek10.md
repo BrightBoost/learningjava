@@ -9,5 +9,5 @@
 - datasource
 
 ## What we are working on right now
-- Exercises workbook (page 70)  
-- extra `exercises/week10/jdbc1.md`
+- Exercises workbook (page 84)  
+- extra `exercises/week10/jdbc2.md`
