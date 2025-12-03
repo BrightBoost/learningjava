@@ -9,5 +9,5 @@
 - datasource
 
 ## What we are working on right now
-- Exercises workbook (page 63) (for the dependency add the version, see my pom.xml)
+- Exercises workbook (page 70)  
 - extra `exercises/week10/jdbc1.md`
