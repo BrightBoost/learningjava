@@ -1,4 +1,4 @@
-Create a Language model (just a class) with an id and a name + getters, setters, constructors.
+For the sakila db, create a Language model (just a class) with an id and a name + getters, setters, constructors.
 
 ---
 
