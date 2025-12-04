@@ -8,16 +8,23 @@ import java.util.Scanner;
 
 public class App {
     static Scanner scanner = new Scanner(System.in);
+    static ShipperDao shipperDao;
 
     public static void main(String[] args) {
+        init(args[0], args[1]);
+        runHomeScreen();
+    }
+
+    private static void init(String username, String password) {
         BasicDataSource basicDataSource = new BasicDataSource();
         basicDataSource.setUrl("jdbc:mysql://localhost:3306/northwind");
-        basicDataSource.setUsername(args[0]);
-        basicDataSource.setPassword(args[1]);
+        basicDataSource.setUsername(username);
+        basicDataSource.setPassword(password);
 
-        ShipperDao shipperDao = new ShipperDao(basicDataSource);
+        shipperDao = new ShipperDao(basicDataSource);
+    }
 
-
+    public static void runHomeScreen() {
         String options = """
                 What do you want to do?
                 1) See all shippers
@@ -31,31 +38,35 @@ public class App {
         while(programRunning) {
             System.out.println(options);
             int chosenOption = Integer.parseInt(scanner.nextLine());
-            switch(chosenOption) {
-                case 1:
-                    displayShipper(shipperDao.getAllShippers());
-                    break;
-                case 2:
-                    shipperDao.addNewShippers(createShipper());
-                    break;
-                case 3:
-                    System.out.println("What's the id of the shipper you want to change?");
-                    int id = Integer.parseInt(scanner.nextLine());
-                    System.out.println("What's the new phone number?");
-                    String phone = scanner.nextLine();
-                    shipperDao.updatePhoneNumber(id, phone);
-                    break;
-                case 4:
-                    System.out.println("What's the id of the shipper you want to delete?");
-                    shipperDao.deleteShipperById(Integer.parseInt(scanner.nextLine()));
-                    break;
-                case 0:
-                    programRunning = false;
-                    break;
-                default:
-                    System.out.println("Sorry I don't know that option. Please try again.");
-            }
+            programRunning = handleUserChoice(chosenOption);
         }
+    }
+
+    public static boolean handleUserChoice(int choice) {
+        switch(choice) {
+            case 1:
+                displayShipper(shipperDao.getAllShippers());
+                break;
+            case 2:
+                shipperDao.addNewShippers(createShipper());
+                break;
+            case 3:
+                System.out.println("What's the id of the shipper you want to change?");
+                int id = Integer.parseInt(scanner.nextLine());
+                System.out.println("What's the new phone number?");
+                String phone = scanner.nextLine();
+                shipperDao.updatePhoneNumber(id, phone);
+                break;
+            case 4:
+                System.out.println("What's the id of the shipper you want to delete?");
+                shipperDao.deleteShipperById(Integer.parseInt(scanner.nextLine()));
+                break;
+            case 0:
+                return false;
+            default:
+                System.out.println("Sorry I don't know that option. Please try again.");
+        }
+        return true;
     }
 
     public static void displayShipper(List<Shipper> shippers) {
