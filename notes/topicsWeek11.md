@@ -25,3 +25,7 @@
 - morning: workshop
 - afternoon: the "workshop"
 - end with kahoot
+
+## What we're doing right now
+- Answer the question: What is a spring bean? (Not the same as Java bean) 
+- Answer the question: What is dependency injection in Spring?
