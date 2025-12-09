@@ -1,0 +1,11 @@
+## Continue from the previous exercise
+- Create a new abstract class Bean (don't make it a component)
+- Give it a String recipe (add it to the constructor and add getters and setters)
+- Make the beans extend from this class Bean and make sure recipe is initialized using the application.properties and then @Value
+- (This should go in the constructor of the beans)
+- Run the application and all should be good
+- Create a new class BeanSoup (annotate with @Component)
+- BeanSoup has a field of type Bean
+- Run the application and it should crash
+- Why is it crashing?
+- You can fix this with the @Qualifier annotation, do independent research to solve this
