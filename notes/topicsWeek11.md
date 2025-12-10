@@ -14,7 +14,9 @@
 - configuration
 
 ## Wednesday
-- REST APIs with GET POST PUT DELETE
+- Discuss exercise 
+- Give some time to complete / study your own project / Q&A
+- REST APIs with GET (with query param) POST PUT DELETE
 - afternoon: mini project and catch up / recap
 
 ## Thursday
