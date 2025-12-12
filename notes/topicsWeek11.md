@@ -20,14 +20,15 @@
 - afternoon: mini project and catch up / recap
 
 ## Thursday
-- morning: wrap up theory
-- workshop
+- 2 hours to work on the mini project
+- security mini workshop until 1.30?
+- afternoon: workshop
 
 ## Friday
 - morning: workshop
 - afternoon: the "workshop"
 - end with kahoot
+- survey
 
 ## What we're doing right now
-- Answer the question: What is a spring bean? (Not the same as Java bean) 
-- Answer the question: What is dependency injection in Spring?
+- workshop
